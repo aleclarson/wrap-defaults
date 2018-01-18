@@ -25,7 +25,8 @@ defaults({
   a: 2,
   d: undefined,
   e: 3,
-})
+}) 
+// => {a: 2, b: 2, c: 3, d: 4, e: 3}
 ```
 
 The `defaults` function above is identical to:
